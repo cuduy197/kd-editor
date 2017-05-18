@@ -22,10 +22,10 @@ export default {
     moduleName: "VueHtml5Editor",
     plugins: [
         license({
-            banner: `Vue-html5-editor ${pkg.version}\n${pkg.repository.url}\nbuild at ${new Date()}`
+            banner: `Vue-html5-editor ${pkg.version}\n${pkg.repository.url}\nbuild at ${new Date()}\n Mod by cuduy197`
         }),
         progress({
-            clearLine: false
+            clearLine: true
         }),
         replace({
             VERSION: JSON.stringify(pkg.version)
